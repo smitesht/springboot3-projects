@@ -2,6 +2,22 @@
 
 The repository contains MySQL database script, and Spring Boot 3 source code
 
+# REST APIs
+
+#### GET: http://localhost:8181/api/todo/
+#### POST: http://localhost:8181/api/todo/
+           Body: {
+              "task": "Complete Homework",
+              "completed": false
+           }
+#### PUT: http://localhost:8181/api/todo/1
+         Body: {
+              "task": "Complete Homework",
+              "completed": false
+           }
+#### DELETE: http://localhost:8181/api/todo/1
+
+
 # MySQL Script
 - Create Database: TodoList
 - Create Table: todo_items
